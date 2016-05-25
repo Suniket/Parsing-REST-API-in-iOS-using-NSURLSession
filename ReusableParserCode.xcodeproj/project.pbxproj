@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		46EC1ACF1CF2EA58005C2931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1ACE1CF2EA58005C2931 /* main.m */; };
 		46EC1AD21CF2EA58005C2931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1AD11CF2EA58005C2931 /* AppDelegate.m */; };
-		46EC1AD51CF2EA58005C2931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1AD41CF2EA58005C2931 /* ViewController.m */; };
 		46EC1AD81CF2EA58005C2931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EC1AD61CF2EA58005C2931 /* Main.storyboard */; };
 		46EC1ADA1CF2EA58005C2931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EC1AD91CF2EA58005C2931 /* Assets.xcassets */; };
 		46EC1ADD1CF2EA58005C2931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EC1ADB1CF2EA58005C2931 /* LaunchScreen.storyboard */; };
 		46EC1AE81CF2EA58005C2931 /* ReusableParserCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1AE71CF2EA58005C2931 /* ReusableParserCodeTests.m */; };
 		46EC1AF31CF2EA58005C2931 /* ReusableParserCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1AF21CF2EA58005C2931 /* ReusableParserCodeUITests.m */; };
+		46EC1B0B1CF42CF9005C2931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1B091CF42CF9005C2931 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		46EC1B0E1CF42D04005C2931 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1B0D1CF42D04005C2931 /* ConnectionManager.m */; settings = {ASSET_TAGS = (); }; };
+		46EC1B111CF42D0C005C2931 /* FunctionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC1B101CF42D0C005C2931 /* FunctionUtil.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		46EC1ACE1CF2EA58005C2931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46EC1AD01CF2EA58005C2931 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46EC1AD11CF2EA58005C2931 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		46EC1AD31CF2EA58005C2931 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46EC1AD41CF2EA58005C2931 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		46EC1AD71CF2EA58005C2931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46EC1AD91CF2EA58005C2931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46EC1ADC1CF2EA58005C2931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		46EC1AEE1CF2EA58005C2931 /* ReusableParserCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableParserCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EC1AF21CF2EA58005C2931 /* ReusableParserCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReusableParserCodeUITests.m; sourceTree = "<group>"; };
 		46EC1AF41CF2EA58005C2931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EC1B091CF42CF9005C2931 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46EC1B0A1CF42CF9005C2931 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46EC1B0C1CF42D04005C2931 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		46EC1B0D1CF42D04005C2931 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		46EC1B0F1CF42D0C005C2931 /* FunctionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionUtil.h; sourceTree = "<group>"; };
+		46EC1B101CF42D0C005C2931 /* FunctionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,11 @@
 		46EC1ACC1CF2EA58005C2931 /* ReusableParserCode */ = {
 			isa = PBXGroup;
 			children = (
+				46EC1B061CF42CD2005C2931 /* Common Utils */,
+				46EC1B071CF42CD2005C2931 /* Network Manager */,
+				46EC1B081CF42CD2005C2931 /* ViewControllers */,
 				46EC1AD01CF2EA58005C2931 /* AppDelegate.h */,
 				46EC1AD11CF2EA58005C2931 /* AppDelegate.m */,
-				46EC1AD31CF2EA58005C2931 /* ViewController.h */,
-				46EC1AD41CF2EA58005C2931 /* ViewController.m */,
 				46EC1AD61CF2EA58005C2931 /* Main.storyboard */,
 				46EC1AD91CF2EA58005C2931 /* Assets.xcassets */,
 				46EC1ADB1CF2EA58005C2931 /* LaunchScreen.storyboard */,
@@ -138,6 +145,33 @@
 				46EC1AF41CF2EA58005C2931 /* Info.plist */,
 			);
 			path = ReusableParserCodeUITests;
+			sourceTree = "<group>";
+		};
+		46EC1B061CF42CD2005C2931 /* Common Utils */ = {
+			isa = PBXGroup;
+			children = (
+				46EC1B0F1CF42D0C005C2931 /* FunctionUtil.h */,
+				46EC1B101CF42D0C005C2931 /* FunctionUtil.m */,
+			);
+			path = "Common Utils";
+			sourceTree = "<group>";
+		};
+		46EC1B071CF42CD2005C2931 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				46EC1B0C1CF42D04005C2931 /* ConnectionManager.h */,
+				46EC1B0D1CF42D04005C2931 /* ConnectionManager.m */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		46EC1B081CF42CD2005C2931 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46EC1B0A1CF42CF9005C2931 /* ViewController.h */,
+				46EC1B091CF42CF9005C2931 /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EC1AD51CF2EA58005C2931 /* ViewController.m in Sources */,
+				46EC1B0B1CF42CF9005C2931 /* ViewController.m in Sources */,
+				46EC1B0E1CF42D04005C2931 /* ConnectionManager.m in Sources */,
 				46EC1AD21CF2EA58005C2931 /* AppDelegate.m in Sources */,
 				46EC1ACF1CF2EA58005C2931 /* main.m in Sources */,
+				46EC1B111CF42D0C005C2931 /* FunctionUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReusableParserCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReusableParserCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -435,7 +471,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ReusableParserCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCodeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableParserCode.app/ReusableParserCode";
 			};
@@ -447,7 +483,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ReusableParserCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCodeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableParserCode.app/ReusableParserCode";
 			};
@@ -458,7 +494,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ReusableParserCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ReusableParserCode;
 				USES_XCTRUNNER = YES;
@@ -470,7 +506,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ReusableParserCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.ReusableParserCodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suniket.ReusableParserCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ReusableParserCode;
 				USES_XCTRUNNER = YES;
@@ -496,6 +532,7 @@
 				46EC1AF91CF2EA58005C2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46EC1AFA1CF2EA58005C2931 /* Build configuration list for PBXNativeTarget "ReusableParserCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +541,7 @@
 				46EC1AFC1CF2EA58005C2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46EC1AFD1CF2EA58005C2931 /* Build configuration list for PBXNativeTarget "ReusableParserCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +550,7 @@
 				46EC1AFF1CF2EA58005C2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
